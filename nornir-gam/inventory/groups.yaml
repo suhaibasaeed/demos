@@ -1,0 +1,21 @@
+---
+juniper:
+  port: 22
+  platform: junos
+  connection_options:
+    netmiko:
+      platform: juniper_junos
+  data:
+    ntp_server: 2.2.2.2
+
+route-reflector:
+  groups:
+    - juniper
+
+hex:
+  groups:
+    - juniper
+
+tra:
+  groups:
+    - juniper

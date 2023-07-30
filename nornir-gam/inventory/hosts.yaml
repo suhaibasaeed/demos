@@ -1,0 +1,16 @@
+---
+rr1.hex:
+  hostname: 10.1.1.1
+  groups:
+    - juniper
+    - route-reflector
+    - hex
+  data:
+    ntp_server: 1.1.1.1
+
+rr1.tra:
+  hostname: 10.2.1.1
+  groups:
+    - juniper
+    - route-reflector
+    - tra

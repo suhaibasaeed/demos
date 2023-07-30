@@ -1,0 +1,4 @@
+---
+username: admin
+password: admin
+ntp_server: 3.3.3.3
